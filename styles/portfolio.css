@@ -198,3 +198,40 @@ footer{
 .social-links a{
     margin-right: 24px;
 }
+
+/* Responsive part */
+.hidden{
+    display: none;
+}
+/*Mobile device responsive*/
+
+/* What i do Section media query */
+@media screen and (max-width: 576px){
+    .skills-container{
+        flex-direction: column;
+    }
+
+    #what-i-do-description{
+        padding: 20px 10px 20px 10px;
+    }
+    .resume-container{
+        flex-direction: column-reverse;
+    }
+    .download-cv{
+        text-align: left;
+    }
+    .download-btn{
+        background-color: #d4d3d3;
+        color: #FD6E0A;
+    }
+    .footer-column > h3{
+        font-size: 20px;
+    }
+    footer{
+        padding: 120px;
+        flex-direction: column;
+    }
+    .footer-column > .btn-footer{
+        text-align: center;
+    }
+}
